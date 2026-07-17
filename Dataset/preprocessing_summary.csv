@@ -1,0 +1,7 @@
+Step,Description,Output
+Load data,Loaded WDBC dataset with 569 samples and 30 numerical features.,Raw dataframe
+Clean data,"Removed ID column and encoded diagnosis labels: B=0, M=1.","X, y"
+Train/test split,Used stratified 80/20 split with random_state=42.,"X_train, X_test, y_train, y_test"
+Feature scaling,"Fitted StandardScaler on training data only, then transformed train and test sets.","X_train_scaled, X_test_scaled"
+SMOTE,Applied SMOTE only to the scaled training set.,"X_train_smote, y_train_smote"
+Export files,Saved scaled train/test data and SMOTE-resampled training data as CSV files.,6 CSV files
