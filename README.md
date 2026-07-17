@@ -6,9 +6,7 @@ This project implements a machine learning framework for binary classification o
 
 ## 👥 Project Team
 
-**Lead Developer (ML Models & Explainability):** Wang Yuanzhu
-
-**Team Members:** Xin Yongyi, Xu Haowang, Gai Yuxuan, Yun Jiaqi
+**Lead Developer :** Wang Yuanzhu
 
 ---
 
